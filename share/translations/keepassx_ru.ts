@@ -247,7 +247,8 @@ Please select whether you want to allow access.</source>
     </message>
     <message>
         <source>Append &apos; - Copy&apos; to title</source>
-        <translation>Добавить &apos; - Копия&apos; к названию</translation>
+        <translation>
+Добавить &apos; - Копия&apos; к названию</translation>
     </message>
     <message>
         <source>Replace username and password with references</source>
@@ -1207,7 +1208,7 @@ Do you want to open it anyway?</source>
     <name>Entry</name>
     <message>
         <source> - Clone</source>
-        <translation> - Копия1</translation>
+        <translation> - Копия</translation>
     </message>
 </context>
 <context>
