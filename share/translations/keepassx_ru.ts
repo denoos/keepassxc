@@ -1207,7 +1207,7 @@ Do you want to open it anyway?</source>
     <name>Entry</name>
     <message>
         <source> - Clone</source>
-        <translation>- Копия</translation>
+        <translation> - Копия1</translation>
     </message>
 </context>
 <context>
