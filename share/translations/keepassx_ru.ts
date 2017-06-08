@@ -121,7 +121,7 @@ Please select whether you want to allow access.</source>
     </message>
     <message>
         <source>Auto-Type - KeePassXC</source>
-        <translation type="unfinished">Автоввод - KeePassXC</translation>
+        <translation>Автоввод - KeePassXC</translation>
     </message>
 </context>
 <context>
@@ -1207,7 +1207,7 @@ Do you want to open it anyway?</source>
     <name>Entry</name>
     <message>
         <source> - Clone</source>
-        <translation>- Колинировать</translation>
+        <translation>- Копия</translation>
     </message>
 </context>
 <context>
