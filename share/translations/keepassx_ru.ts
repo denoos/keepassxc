@@ -1961,6 +1961,10 @@ Change them only if you know what you are doing.</source>
         <source>Word Separator:</source>
         <translation>Разделитель слов:</translation>
     </message>
+    <message>
+        <source>Copy</source>
+        <translation>Копировать</translation>
+    </message>
 </context>
 <context>
     <name>QObject</name>
