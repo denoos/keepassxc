@@ -1,5 +1,4 @@
 /*
- *  Copyright (C) 2010 Felix Geyer <debfx@fobos.de>
  *  Copyright (C) 2017 KeePassXC Team <team@keepassxc.org>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -16,35 +15,17 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef KEEPASSX_TESTGROUP_H
-#define KEEPASSX_TESTGROUP_H
+#ifndef KEEPASSXC_PASSWORDINPUT_H
+#define KEEPASSXC_PASSWORDINPUT_H
 
-#include <QObject>
-#include "core/Database.h"
+#include <QtCore/qglobal.h>
 
-class TestGroup : public QObject
+class PasswordInput
 {
-    Q_OBJECT
-
-private slots:
-    void initTestCase();
-    void testParenting();
-    void testSignals();
-    void testEntries();
-    void testDeleteSignals();
-    void testCopyCustomIcon();
-    void testClone();
-    void testCopyCustomIcons();
-    void testMerge();
-    void testMergeConflict();
-    void testMergeDatabase();
-    void testMergeConflictKeepBoth();
-    void testFindEntry();
-    void testFindGroupByPath();
-    void testPrint();
-
-private:
-    Database* createMergeTestDatabase();
+public:
+    PasswordInput();
+    static void setStdinEcho(bool enable);
+    static QString getPassword();
 };
 
-#endif // KEEPASSX_TESTGROUP_H
+#endif // KEEPASSXC_PASSWORDINPUT_H
